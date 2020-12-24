@@ -1,0 +1,24 @@
+.about {
+  background-image: linear-gradient(rgba(34, 0, 255, 0.5), rgba(255, 29, 210, 0.5)), url(../../assets/profile/me-bike.jpg);
+  color: yellow;
+  background-repeat: no-repeat;
+  background-position: center;
+      height: 33em;
+  // background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
+  // position: relative;
+
+
+.opac-text {
+  // border: 0px black solid;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  margin:2em;
+  padding: 1em;
+  
+}
