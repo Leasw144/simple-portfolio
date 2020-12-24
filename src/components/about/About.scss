@@ -10,6 +10,15 @@
   grid-template-columns: 50% 50%;
 }
 
+.chinese {
+  display: flex;
+  flex-direction: column;
+  writing-mode:vertical-lr;
+      font-size: 6em;
+    opacity: 0.5;
+    color: #ffee6e;
+    // font-family: 'Zhi Mang Xing';
+}
 
   // position: relative;
 
