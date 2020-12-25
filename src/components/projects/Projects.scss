@@ -1,3 +1,17 @@
+.projDisplay {
+  display: flex;
+  flex-direction: row;
+}
+
+.abstract {
+  margin:0em 1em;
+}
+
+.tech {
+  min-width: 7em;
+}
+
 .projImg {
   height: 10em;
 }
+

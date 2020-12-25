@@ -13,20 +13,29 @@ import projectList from "./pictures.js"
 
 
 function App() {
-  const projects = projectList.map(project => {
-    return (
-      <Projects name={project.name} img={project.images} projObj={project.abstract} tech={project.tech} />
-    )
-  })~
-  console.log('app', covid)
+  console.log(projectList);
+
+  // console.log('app', projects)
   return (
     <div className="App">
       <Nav />
       <About />
       <Skills />
-      {projects}
-      {/* <Projects name="covid" img={covid} projObj={covidObj} />
-      <Projects name="Rotten Tomatatillos" img={tomatoes} projObj={covidObj} /> */}
+
+      <Projects
+        name="covid"
+        img={covid}
+        abstract={projectList.covid.abstract}
+        tech={projectList.covid.tech}
+        allProj={projectList}
+      />
+      <Projects
+        name="Rotten Tomatatillos"
+        img={tomatoes}
+        abstract={projectList.tomatoes.abstract}
+        tech={projectList.tomatoes.tech}
+        allProj={projectList}
+      />
     </div>
   );
 }
