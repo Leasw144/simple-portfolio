@@ -4,7 +4,7 @@ import './About.scss'
 export default function About() {
   return (
     <div className="about">
-      <h1 className="chinese">萬國泰</h1>
+      <h2 className="chinese">萬國泰</h2>
       <section className="opac-text">
         <h1>About</h1>
         <p>

@@ -45,4 +45,10 @@ body {
 
 h1 {
   text-align: center;
+  background-image: linear-gradient(to right top, #f01c5d, #da0073, #bd0b85, #982192, #6b2e98, #5945ac, #3f58be);
+}
+
+h2 {
+  text-align: center;
+  min-width: max-content
 }
