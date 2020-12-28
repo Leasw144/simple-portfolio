@@ -1,7 +1,11 @@
+body {
+  background-color: #272932
+}
 .App {
   display: grid;
-  grid-template-columns: 200px auto;
-  color: #caf0f8
+  grid-template-rows: 200px auto;
+  color: #caf0f8;
+  background-color: #272932;
 }
 
 .App-logo {
@@ -37,4 +41,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  text-align: center;
+  background-image: linear-gradient(to right top, #f01c5d, #da0073, #bd0b85, #982192, #6b2e98, #5945ac, #3f58be);
+}
+
+h2 {
+  text-align: center;
+  min-width: max-content
 }

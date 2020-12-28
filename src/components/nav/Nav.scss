@@ -1,6 +1,17 @@
 .navbar {
-  background-color: #4D7EA8;
-  height: 100vh;
+  background-color: #f04362;
+  // height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+      margin: 0em 1em;
+}
+.controller {
+  justify-content: space-between;
+    display: flex;
+    background-color: #272932;
+    margin-bottom: 3px;
 }
