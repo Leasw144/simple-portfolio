@@ -8,10 +8,8 @@ export default function About() {
       <section className="opac-text">
         <h1>About</h1>
         <p>
-          Thanks for checking out my page! My name is Linus, I'm a front-end
-          developer that has been in the game for several months. I love
-          videogames, films, and arguing about Star Wars so if you need any ice
-          breakers, there's a couple
+          Thanks for checking out my page! My name is Wattana but I go by Sean. I'm a front-end
+          developer that graduated from University of Colorado Boulder and Turing School of Software & Design. I spent four years in China as an ESL teacher and loved teaching students and being a mentor to them. As a coder, I take that love for teaching and discovering how best to resolve problems and apply them as a developer. Since my time as a coder, I've built over 10 apps and a couple of mini ones in both independent, and group settings involving a backend team. <hr/> <p>If you're extraordinarily awkward like myself, some good ice breakers are movies, videogames, and music.</p>
         </p>
       </section>
     </div>
