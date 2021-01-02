@@ -4,6 +4,8 @@ import Nav from "../nav/Nav";
 import About from "../about/About.js";
 import Skills from "../skills/Skills.js";
 import Projects from "../projects/Projects.js";
+import Contact from "../contact/Contact.js"
+
 // import covid from "../../assets/projects/covid1.jpg";
 import tomatoes from "../../assets/projects/tomatoes.jpg";
 import projectList from "../../projectData.js";
@@ -22,9 +24,12 @@ export default function Content() {
       <Nav />
       <About />
       <Skills />
-      <h1>Projects</h1>
+      <a href="projects">
+        <h1>Projects</h1>
+      </a>
       {allProjects}
-      
+      <h1>Contact</h1>
+      <Contact />
     </div>
   );
 }
