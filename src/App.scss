@@ -45,7 +45,9 @@ body {
 
 h1 {
   text-align: center;
-  background-image: linear-gradient(to right top, #f01c5d, #da0073, #bd0b85, #982192, #6b2e98, #5945ac, #3f58be);
+  background-image: linear-gradient(to right top, #ff001e, #ff001e, #ee0166, #dd007d, #ac00aa, #9300c0, #7300d0);
+  font-family: 'Comfortaa', cursive;
+  
 }
 
 h2 {
@@ -58,4 +60,9 @@ h2 {
     margin: 2em;
     display: flex;
     justify-content: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
 }
