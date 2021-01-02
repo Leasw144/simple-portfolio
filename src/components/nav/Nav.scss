@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #f04362;
+  background-image: linear-gradient(to right top, #ff001e, #ff001e, #ee0166, #dd007d, #ac00aa, #9300c0, #7300d0);
   // height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,10 +8,54 @@
 
 .title {
       margin: 0em 1em;
+          display: flex;
+    justify-content: center;
+    font-family: 'Comfortaa', cursive;
+
 }
 .controller {
   justify-content: space-between;
     display: flex;
     background-color: #272932;
     margin-bottom: 3px;
+}
+
+.name {
+width: 0;
+border-bottom: 30px solid #5200E0;
+border-left: 52px solid transparent;
+border-right: 52px solid transparent;
+
+}
+
+.hex:before {
+    content: " ";
+    width: 0; height: 0;
+    border-bottom: 30px solid #5200E0;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    position: absolute;
+    top: -30px;
+}
+
+.hex {
+    margin-top: 30px;
+    width: 104px;
+    height: 60px;
+    background-color: #5200E0;
+    position: relative;
+        display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hex:after {
+    content: "";
+    width: 0;
+    position: absolute;
+    bottom: -30px;
+    border-top: 30px solid #5200E0;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+        left: 0px;
 }
