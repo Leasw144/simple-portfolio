@@ -7,8 +7,8 @@ export default function Nav() {
     <div className="navbar">
       <div className="title">
 
-        <h1>Linus</h1>
-        <p>omg Linus you're so good at this and this is really impressive - me hyping myself up</p>
+        <h3 className="hex">Wattana Leas</h3>
+        {/* <p>omg Linus you're so good at this and this is really impressive - me hyping myself up</p> */}
       </div>
       <div className="controller">
         <Button location="#home" id="home"/>
