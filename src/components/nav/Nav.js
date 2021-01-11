@@ -5,9 +5,17 @@ import Button from '../button/Button'
 export default function Nav() {
   return (
     <div className="navbar">
-      <div className="title">
+      {/* <ul id="grid" class="clear">
+        <li>
+            <div class="hexagon"></div>
+        </li>
 
-        <h3 className="hex">Wattana Leas</h3>
+      </ul> */}
+      <div className="title">
+        {/* <div className="hex">Wattana Leas</div> */}
+        <div className="contact">
+          <h3>Wattana Leas</h3>
+        </div>
         {/* <p>omg Linus you're so good at this and this is really impressive - me hyping myself up</p> */}
       </div>
       <div className="controller">
