@@ -49,15 +49,16 @@ export default class Gallery extends Component {
           <Lightbox
             mainSrc={this.props.img[photoIndex]}
             nextSrc={this.props.img[(photoIndex + 1) % this.props.img.length]}
-            prevSrc={
-              this.props.img[
-                (photoIndex + this.props.img.length - 1) % this.props.img.length
-              ]
-            }
+            prevSrc={this.props.img[(photoIndex + this.props.img.length - 1) % this.props.img.length]}
             onCloseRequest={() => this.setState({ isOpen: false })}
             onMoveNextRequest={() =>
               this.setState({
                 photoIndex: (photoIndex + 1) % this.props.img.length,
+              })
+            }
+            onMovePrevRequest={() => 
+              this.setState({
+                photoIndex: (photoIndex + this.props.img.length - 1) % this.props.img.length
               })
             }
           />

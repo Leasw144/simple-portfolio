@@ -77,10 +77,11 @@
 
 }
 .controller {
-  justify-content: space-between;
+  justify-content: space-around;
     display: flex;
     background-color: #272932;
     margin-bottom: 3px;
+    font-size: larger;
 }
 
 .name {
