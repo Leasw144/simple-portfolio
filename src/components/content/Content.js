@@ -21,7 +21,7 @@ export default function Content() {
   })
   return (
     <div className="content">
-      <Nav />
+      {/* <Nav /> */}
       <About />
       <Skills />
       <a href="projects">
