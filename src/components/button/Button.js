@@ -1,9 +1,11 @@
 import React from 'react'
 import './Button.scss'
 
-export default function Button({location, id}) {
+export default function Button({id}) {
   return (
-    <button href={location} id={id}>{id}</button>
-  )
+    <a className="navBtn" href="project" id={id}>
+      {id}
+    </a>
+  );
 
 } 
