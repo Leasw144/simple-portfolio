@@ -1,14 +1,44 @@
 .navbar {
-  background-image: linear-gradient(to right top, #ff001e, #ff001e, #ee0166, #dd007d, #ac00aa, #9300c0, #7300d0);
+//   background-image: linear-gradient(to right top, #ff001e, #ff001e, #ee0166, #dd007d, #ac00aa, #9300c0, #7300d0);
   // height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background-color: #37464f;
+        justify-content: space-between;
 }
 
-.controller * {
+
+
+
+
+
+
+.profCircle {
+  border-radius: 50%;
+      border-radius: 50%;
+    /* height: auto; */
+    width: 80%;
+    margin: 1em;
+    align-self: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0em 1em;
+}
+
+
+
+.controller > * {
     color:white;
     font-family: 'Comfortaa', cursive;
+    flex-direction: column;
+    padding: 1em
 }
 #grid {
     position: relative;
@@ -71,17 +101,21 @@
 
 .title {
       margin: 0em 1em;
-          display: flex;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     font-family: 'Comfortaa', cursive;
+    text-align: center;
 
 }
 .controller {
   justify-content: space-around;
     display: flex;
-    background-color: #272932;
+    padding: 1em;
     margin-bottom: 3px;
     font-size: larger;
+    flex-direction: column;
+    align-items: center;
 }
 
 .name {

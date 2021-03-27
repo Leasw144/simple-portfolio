@@ -1,28 +1,44 @@
 .about {
-  background-image: linear-gradient(rgba(34, 0, 255, 0.5), rgba(255, 29, 210, 0.5)), url(../../assets/profile/me-bike.jpg);
+  background-image: linear-gradient(rgba(34, 0, 255, 0.5), rgba(255, 29, 210, 0.5)), url(../../assets/neo-hk.jpeg);
   color: yellow;
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
-      height: 33em;
+      // height: 33em;
   // background-repeat: no-repeat;
   background-size: cover;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 40% ;
 }
 
+.intro {
+    // background: none;
+  margin-left: 4em;
+  p {
+        font-size: 1.5em;
+  }
+    // text-align: left;
+}
 .chinese {
   display: flex;
   flex-direction: column;
   writing-mode:vertical-lr;
-      font-size: 6em;
+      font-size: 7em;
     opacity: 0.5;
     color: #ffee6e;
-    padding: 1em;
-    // font-family: 'Zhi Mang Xing';
+    padding: .5em .5em 0em;
+    flex-direction: column-reverse;
+    font-family: 'Zhi Mang Xing';
 }
 
-  // position: relative;
 
+  // position: relative;
+.nameHeader {
+      font-size: 3em;
+  color: red;
+    font-weight: 100;
+    text-align: left;
+}
 
 .opac-text {
   // border: 0px black solid;

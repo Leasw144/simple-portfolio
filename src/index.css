@@ -7,6 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: "MR_ROBOT";
+  src: local("MR_ROBOT"),
+    url("./MR_ROBOT.ttf") format("truetype");
+  font-weight: 100;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

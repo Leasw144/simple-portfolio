@@ -1,17 +1,36 @@
-body {
-  background-color: #272932
+
+  body {
+  background-color: #333;
+  -webkit-background-size: 0.3rem 0.3rem;
+  -moz-background-size: 0.3rem 0.3rem;
+  background-size: 0.3rem 0.3rem;
+  background-image: -webkit-linear-gradient(left, #14213d 1px, rgba(204,200,177,0) 1px), -webkit-linear-gradient(top, #14213d 1px, rgba(204,200,177,0) 1px);
+  background-image: -moz-linear-gradient(left, #14213d 1px, rgba(204,200,177,0) 1px), -moz-linear-gradient(top, #14213d 1px, rgba(204,200,177,0) 1px);
+  background-image: -o-linear-gradient(left, #14213d 1px, rgba(204,200,177,0) 1px), -o-linear-gradient(top, #14213d 1px, rgba(204,200,177,0) 1px);
+  background-image: -ms-linear-gradient(left, #14213d 1px, rgba(204,200,177,0) 1px), -ms-linear-gradient(top, #14213d 1px, rgba(204,200,177,0) 1px);
+  background-image: linear-gradient(to right, #14213d 1px, rgba(204,200,177,0) 1px), linear-gradient(to bottom, #14213d 1px, rgba(204,200,177,0) 1px);
+  font-family: helvetica, sans-serif;
+  letter-spacing: 0.03rem;
+  font-weight: lighter;
+  color: #454138;
 }
+
 .App {
   display: grid;
-  grid-template-rows: 200px auto;
+  grid-template-columns: 17% auto;
   color: #caf0f8;
   background-color: #272932;
+  margin: 0em 9em;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -45,8 +64,10 @@ body {
 
 h1 {
   text-align: center;
-  background-image: linear-gradient(to right top, #ff001e, #ff001e, #ee0166, #dd007d, #ac00aa, #9300c0, #7300d0);
-  font-family: 'Comfortaa', cursive;
+  // background-image: linear-gradient(to right top, #ff001e, #ff001e, #ee0166, #dd007d, #ac00aa, #9300c0, #7300d0);
+  // font-family: 'Comfortaa', cursive;
+  font-family: 'MR_ROBOT', cursive;
+  // 
   
 }
 
