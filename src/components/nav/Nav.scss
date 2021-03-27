@@ -1,15 +1,17 @@
 .navbar {
 //   background-image: linear-gradient(to right top, #ff001e, #ff001e, #ee0166, #dd007d, #ac00aa, #9300c0, #7300d0);
   // height: 100vh;
-  display: flex;
-  flex-direction: column;
-position: -webkit-sticky;
+    display: flex;
+    flex-direction: column;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     height: 100vh;
-    background-color: #37464f;
-        justify-content: space-between;
+    background-color: #f2f3f7;
+    min-width: 13rem;
 }
+
+
 
 
 
@@ -35,10 +37,15 @@ position: -webkit-sticky;
 
 
 .controller > * {
-    color:white;
+    color: #222;
     font-family: 'Comfortaa', cursive;
     flex-direction: column;
-    padding: 1em
+    padding: 1em;
+    font-size: 1rem;
+}
+
+.navBtn:hover {
+    color: #0198fd;
 }
 #grid {
     position: relative;
@@ -100,13 +107,15 @@ position: -webkit-sticky;
 }
 
 .title {
-      margin: 0em 1em;
+    margin: 0em 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-family: 'Comfortaa', cursive;
     text-align: center;
-
+    h3, p {
+        color: #222;
+    }
 }
 .controller {
   justify-content: space-around;
