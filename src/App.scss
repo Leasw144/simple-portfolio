@@ -20,7 +20,7 @@
   grid-template-columns: 17% auto;
   color: #caf0f8;
   background-color: #272932;
-  margin: 0em 9em;
+  // margin: 0em 9em;
 }
 
 .App-logo {
@@ -55,6 +55,11 @@
   color: #61dafb;
 }
 
+@media only screen and (min-width: 1600px)  {
+    .App {
+      margin: 0em 9em;
+    }
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

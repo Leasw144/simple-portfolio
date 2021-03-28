@@ -8,15 +8,14 @@ import MailIcon from "@material-ui/icons/Mail";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import Tooltip from "@material-ui/core/Tooltip";
 import ReactTypingEffect from "react-typing-effect";
+import ArrowDropDownCircleTwoToneIcon from "@material-ui/icons/ArrowDropDownCircleTwoTone";
 
 
 export default function About() {
   return (
     <div className="about">
-
-      <h3 className="chinese">万国泰</h3>
+      {/* <h3 className="chinese">万国泰</h3> */}
       <div className="intro">
-        
         <ReactTypingEffect
           text={["Hello, Friend"]}
           cursorRenderer={(cursor) => <h1>{cursor}</h1>}
@@ -25,31 +24,16 @@ export default function About() {
               <h1 className="nameHeader">
                 {text.split("").map((char, i) => {
                   const key = `${i}`;
-                  return (
-                    <span
-                      key={key}
-                    >
-                      {char}
-                    </span>
-                  );
+                  return <span key={key}>{char}</span>;
                 })}
               </h1>
             );
           }}
         />
       </div>
-      <div className="links">
-        <Tooltip title="test" arrow>
-          <LinkedInIcon style={{ fontSize: 40 }} />
-        </Tooltip>
-        <Tooltip title="test" arrow>
-          <GitHubIcon style={{ fontSize: 40 }} />
-        </Tooltip>
-        <Tooltip title="test" arrow>
-          <InstagramIcon style={{ fontSize: 40 }} />
-        </Tooltip>
+      <div className="down-arrow">
+        <ArrowDropDownCircleTwoToneIcon fontSize="large" />
       </div>
-
       {/* <section className="opac-text">
         <h1>About</h1>
         <p>
