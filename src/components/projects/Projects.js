@@ -34,7 +34,7 @@ export default function Projects({name, img, proj, abstract, tech}) {
     )
   })
   return (
-    <div>
+    <div >
       <h2>{proj.name}</h2>
       <section className="projDisplay">
         <Gallery 

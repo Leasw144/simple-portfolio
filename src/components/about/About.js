@@ -1,12 +1,12 @@
 import React from 'react'
 import './About.scss'
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import DescriptionIcon from "@material-ui/icons/Description";
-import PhoneIcon from "@material-ui/icons/Phone";
-import MailIcon from "@material-ui/icons/Mail";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import Tooltip from "@material-ui/core/Tooltip";
+// import LinkedInIcon from "@material-ui/icons/LinkedIn";
+// import GitHubIcon from "@material-ui/icons/GitHub";
+// import DescriptionIcon from "@material-ui/icons/Description";
+// import PhoneIcon from "@material-ui/icons/Phone";
+// import MailIcon from "@material-ui/icons/Mail";
+// import InstagramIcon from "@material-ui/icons/Instagram";
+// import Tooltip from "@material-ui/core/Tooltip";
 import ReactTypingEffect from "react-typing-effect";
 import ArrowDropDownCircleTwoToneIcon from "@material-ui/icons/ArrowDropDownCircleTwoTone";
 
