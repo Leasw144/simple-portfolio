@@ -5,10 +5,10 @@ import me from "../../assets/profile/me-bike.jpg";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import DescriptionIcon from "@material-ui/icons/Description";
-import PhoneIcon from "@material-ui/icons/Phone";
-import MailIcon from "@material-ui/icons/Mail";
-import IconButton from "@material-ui/core/IconButton";
-import InstagramIcon from "@material-ui/icons/Instagram";
+// import PhoneIcon from "@material-ui/icons/Phone";
+// import MailIcon from "@material-ui/icons/Mail";
+// import IconButton from "@material-ui/core/IconButton";
+// import InstagramIcon from "@material-ui/icons/Instagram";
 
 import Tooltip from "@material-ui/core/Tooltip";
 

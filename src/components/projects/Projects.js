@@ -28,9 +28,9 @@ export default function Projects({name, img, proj, abstract, tech}) {
   //   );
   // })
   // console.log('grouped', groupedImg)
-  const techStack = proj.tech.map(stack => {
+  const techStack = proj.tech.map((stack, i) => {
     return (
-      <li key={stack}>{stack}</li>
+      <li key={i}>{stack}</li>
     )
   })
   return (
