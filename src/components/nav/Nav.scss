@@ -8,7 +8,12 @@
     top: 0;
     height: 100vh;
     background-color: #f2f3f7;
-    min-width: 13rem;
+    min-width: 13rem; 
+    span {
+        color: cadetblue;
+        font-size: x-small;
+        font-weight: bold;
+    }
 }
 
 
@@ -114,6 +119,7 @@
     font-family: 'Comfortaa', cursive;
     text-align: center;
     h3, p {
+        font-size: 1.5em;
         color: #222;
     }
 }

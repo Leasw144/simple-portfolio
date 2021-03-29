@@ -19,7 +19,7 @@ export default function Nav() {
         <img className="profCircle" src={me} alt="me" />
 
         <h3>Wattana Leas</h3>
-        <p> FRONT-END ENGINEER IN COLORADO </p>
+        <span className="intro-tag"> FRONT-END ENGINEER IN COLORADO </span>
       </div>
       <div className="controller">
         <Button location="#home" id="home" />
