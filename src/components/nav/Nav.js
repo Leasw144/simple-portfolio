@@ -9,8 +9,8 @@ import DescriptionIcon from "@material-ui/icons/Description";
 // import MailIcon from "@material-ui/icons/Mail";
 // import IconButton from "@material-ui/core/IconButton";
 // import InstagramIcon from "@material-ui/icons/Instagram";
-
 import Tooltip from "@material-ui/core/Tooltip";
+
 
 export default function Nav() {
   return (
@@ -19,13 +19,13 @@ export default function Nav() {
         <img className="profCircle" src={me} alt="me" />
 
         <h3>Wattana Leas</h3>
-        <p> FRONT-END ENGINEER IN COLORADO </p>
+        <span className="intro-tag"> FRONT-END ENGINEER IN COLORADO </span>
       </div>
       <div className="controller">
-        <Button location="#home" id="home" />
-        <Button location="#projects" id="projects" />
-        <Button location="#about" id="about" />
-        <Button location="#gallery" id="gallery" />
+        <Button id="Home" />
+        <Button id="About" />
+        <Button id="Projects" />
+        <Button id="Gallery" />
       </div>
       <div className="links">
         <Tooltip title="LinkedIn" arrow>

@@ -34,13 +34,10 @@ export default function Projects({name, img, proj, abstract, tech}) {
     )
   })
   return (
-    <div >
+    <div id="Projects">
       <h2>{proj.name}</h2>
       <section className="projDisplay">
-        <Gallery 
-          img={img}
-          github={proj.github}
-        />
+        <Gallery img={img} github={proj.github} />
 
         <div className="projSect">
           <h3>tech stack</h3>
