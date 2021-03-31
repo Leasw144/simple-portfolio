@@ -1,7 +1,7 @@
 import React from 'react'
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import './Splash.scss'
-import Skeleton from "@material-ui/lab/Skeleton";
+// import Skeleton from "@material-ui/lab/Skeleton";
 // import LinkedInIcon from "@material-ui/icons/LinkedIn";
 // import GitHubIcon from "@material-ui/icons/GitHub";
 // import DescriptionIcon from "@material-ui/icons/Description";
@@ -9,7 +9,7 @@ import Skeleton from "@material-ui/lab/Skeleton";
 // import MailIcon from "@material-ui/icons/Mail";
 // import InstagramIcon from "@material-ui/icons/Instagram";
 // import Tooltip from "@material-ui/core/Tooltip";
-import Link from "@material-ui/core/Link";
+// import Link from "@material-ui/core/Link";
 import ReactTypingEffect from "react-typing-effect";
 import ArrowDropDownCircleTwoToneIcon from "@material-ui/icons/ArrowDropDownCircleTwoTone";
 

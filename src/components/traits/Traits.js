@@ -1,10 +1,10 @@
 import './Traits.scss'
-import BrushIcon from "@material-ui/icons/Brush";
+// import BrushIcon from "@material-ui/icons/Brush";
 import GroupWorkIcon from "@material-ui/icons/GroupWork";
 import EmojiFoodBeverageIcon from "@material-ui/icons/EmojiFoodBeverage";
 import TelegramIcon from "@material-ui/icons/Telegram";
 import PagesIcon from "@material-ui/icons/Pages";
-import TraitCard from "../traitCard/TraitCard"
+// import TraitCard from "../traitCard/TraitCard"
 
 
 export default function Traits() {
@@ -12,7 +12,7 @@ export default function Traits() {
     <section className="Traits">
       <div className="trait-card blue">
         <span>
-          <TelegramIcon fontSize="large" color="white" className="char-icon" />
+          <TelegramIcon fontSize="large" className="char-icon" />
         </span>
         <h4>Imaginative/<br/>Inspirational</h4>
         <ul className="trait-list">
@@ -24,7 +24,7 @@ export default function Traits() {
       </div>
       <div className="trait-card red">
         <span>
-          <GroupWorkIcon fontSize="large" color="white" className="char-icon" />
+          <GroupWorkIcon fontSize="large" className="char-icon" />
         </span>
         <h4>The Microscope</h4>
         <ul className="trait-list">
@@ -36,7 +36,7 @@ export default function Traits() {
       </div>
       <div className="trait-card purple">
         <span>
-          <PagesIcon fontSize="large" color="white" className="char-icon" />
+          <PagesIcon fontSize="large" className="char-icon" />
         </span>
         <h4>Cool, Calm, & Collected</h4>
         <ul className="trait-list">
