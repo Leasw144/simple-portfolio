@@ -12,7 +12,7 @@ export default function Skills() {
   return (
     <div>
       <h1 className="skills">Skills and Technical abilities</h1>
-      <ul>
+      <ul className="skill-list">
         {listedTech}
       </ul>
     </div>

@@ -26,9 +26,9 @@ export default function Content() {
       <Splash />
       <About />
       <Skills />
-      <a href="projects">
-        <h1>Projects</h1>
-      </a>
+
+        <h1 id="Projects">Projects</h1>
+    
       {allProjects}
       <h1>Contact</h1>
       <Contact />

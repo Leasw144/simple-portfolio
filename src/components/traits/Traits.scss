@@ -1,0 +1,65 @@
+
+$blue: #2d99ef;
+$yellow: #f9be41;
+$red: #ed5654;
+$purple: #a84cb8;
+
+.Traits {
+  display: flex;
+}
+
+.trait-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 15rem;
+  margin: 1em;
+  flex-grow: 1;
+  .char-icon {
+    border-radius: 50%;
+  }
+  span {
+    padding: 1em 1em 0em;
+  }
+  h4 {
+    padding: 1em;
+    font-weight: bold;
+  }
+  .trait-list {
+    li::marker {
+      content: "▪ ";
+    }
+    li {
+      margin:.5em
+    }
+
+  }
+}
+
+.blue {
+  .char-icon {
+    background-color: $blue;
+  }
+  border-bottom: $blue 5px solid;
+}
+
+.yellow {
+  .char-icon {
+    background-color: $yellow;
+  }
+  border-bottom: $yellow 5px solid;
+}
+
+.purple {
+  .char-icon {
+    background-color: $purple;
+  }
+  border-bottom: $purple 5px solid;
+}
+
+.red {
+  .char-icon {
+    background-color: $red;
+  }
+  border-bottom: $red 5px solid;
+}
