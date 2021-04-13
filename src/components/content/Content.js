@@ -29,7 +29,7 @@ export default function Content() {
       <Skills />
       <Work />
         <h1 id="Projects">Projects</h1>
-    
+  
       {allProjects}
       <h1>Contact</h1>
       <Contact />
