@@ -5,6 +5,7 @@ import me from "../../assets/profile/me-bike.jpg";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import DescriptionIcon from "@material-ui/icons/Description";
+import resume from "../../assets/resume.pdf"; 
 // import PhoneIcon from "@material-ui/icons/Phone";
 // import MailIcon from "@material-ui/icons/Mail";
 // import IconButton from "@material-ui/core/IconButton";
@@ -29,13 +30,29 @@ export default function Nav() {
       </div>
       <div className="links">
         <Tooltip title="LinkedIn" arrow>
-          <LinkedInIcon className="cursor" color="action" />
+          <a
+            href="https://www.linkedin.com/in/wattana-leas-9a54a0119/"
+            target="_blank"
+            rel="noreferrer"
+            alt="linkedin"
+          >
+            <LinkedInIcon className="cursor" color="action" />
+          </a>
         </Tooltip>
         <Tooltip title="GitHub" arrow>
-          <GitHubIcon className="cursor" color="action" />
+          <a
+            href="https://github.com/Leasw144"
+            target="_blank"
+            rel="noreferrer"
+            alt="Github"
+          >
+            <GitHubIcon className="cursor" color="action" />
+          </a>
         </Tooltip>
         <Tooltip title="Resume" arrow>
-          <DescriptionIcon className="cursor" color="action" />
+          <a href={resume} target="_blank" rel="noopener noreferrer">
+            <DescriptionIcon className="cursor" color="action" />
+          </a>
         </Tooltip>
       </div>
 
