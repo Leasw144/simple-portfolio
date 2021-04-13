@@ -21,7 +21,7 @@ export default function Splash() {
     <div className="splash" id="Home">
       <div className="intro">
         <ReactTypingEffect
-          text={["Hello, Friend", "I'm still under construction"]}
+          text={["Hello, Friend"]}
           cursorRenderer={(cursor) => <h1>{cursor}</h1>}
           displayTextRenderer={(text, i) => {
             return (
