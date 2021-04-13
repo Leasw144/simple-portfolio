@@ -1,3 +1,9 @@
+
+$blue: #2d99ef;
+$yellow: #f9be41;
+$red: #ed5654;
+$purple: #a84cb8;
+
 .skill-list {
   // height: 100px;
   display: flex;
@@ -9,16 +15,28 @@
   flex-grow: 1;
   margin: 1em;
   height: 4rem;
-  border-bottom: solid #f9be41;
+  // border-bottom: solid $blue;
   width: 8.5rem;
   flex-wrap: wrap;
   justify-content: center;
   display: flex;
   align-items: center;
+  .yellow {
+    border-bottom: solid $yellow
+  }
+  .purple {
+    border-bottom: solid $purple
+  }
+  .red {
+    border-bottom: solid $red
+  }
+  .blue {
+    border-bottom: solid $blue
+  }
 }
 
 .skill-container {
-  display: flex;
+  margin-bottom: 10em;
 }
 
 .hexagon {
