@@ -1,4 +1,9 @@
 
+$blue: #2d99ef;
+$yellow: #f9be41;
+$red: #ed5654;
+$purple: #a84cb8;
+  
   body {
   background-color: white;
   -webkit-background-size: 0.3rem 0.3rem;
@@ -21,6 +26,16 @@
   color:#272932;
   background-color: #272932;
   // margin: 0em 9em;
+}
+
+h1 {
+  line-height: 48px;
+  margin: 24px 0;
+}
+
+p {
+  line-height: 24px;
+  margin: 24px 0;
 }
 
 .App-logo {
