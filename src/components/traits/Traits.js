@@ -50,7 +50,7 @@ export default function Traits() {
         <span>
           <EmojiFoodBeverageIcon
             fontSize="large"
-            color="white"
+            // color="white"
             className="char-icon"
           />
         </span>
