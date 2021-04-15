@@ -16,7 +16,7 @@ const projectList = {
     name: "Covid-Tracker",
     images: [covid1, covid2, covid3],
     abstract:
-      "An app that consumes the Postman API on Corona-Virus cases by country. Users will be able to view up to date global numbers of how many cases have been confirmed, recovered, and deceased. In addition to being able to find a list of all countries with the most recent updates, users can also click on individual countries to find more detailed information about their cases, as well as add those countries to a 'watch-list'.",
+      "An app that consumes the Postman API on Corona-Virus cases by country. There is a dropdown search menu that retrieves the latest stats for a country, as well as the ability to save countries to a 'watch-list'",
     tech: ["React-Router", "TDD", "Jest"],
     github: "https://github.com/Leasw144/rancid-tomatatillos",
   },
@@ -24,7 +24,7 @@ const projectList = {
     name: "Rotten Tomatatillos",
     images: [tomatoes1, tomatoes2, tomatoes3],
     abstract:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur si",
+      "This app allows for psuedo login capabilities, and retrieves movie information upon success. Users can favorite, comment, or rate movies. My worked primarily on creating the rating functionality and the css.",
     tech: ["React", "TDD", "Jest", "Stuffffff"],
     github: "https://github.com/Leasw144/rancid-tomatatillos",
   },
@@ -32,7 +32,7 @@ const projectList = {
     name: "Crate",
     images: [crate1, crate2, crate3],
     abstract:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur si",
+      "This was a group project involving both the front-end and back-end. Using legacy we code, we added a new feature that allowed users to take a buzzfeed type quiz and have it return the results at the end. I worked on api development and the css and the overall UX on the front end",
     tech: ["React", "TDD", "Jest", "Python", "PostGres"],
     github: "https://github.com/neeruram1/Crate",
   },
@@ -40,7 +40,7 @@ const projectList = {
     name: "Overlook Hotel",
     images: [overlook1, overlook2, overlook3],
     abstract:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur si",
+      "This vanilla JavaScript application uses pseudo login credentials and allows users to pick dates on a hotel to reserve a room. There is also a manager login that allows them to delete or edit reservations. This was a solo project completed in 3 days.",
     tech: ["TDD", "HTML", "JavaScript", "API", "Chai", "Mocha"],
     github: "https://github.com/neeruram1/Crate",
   },

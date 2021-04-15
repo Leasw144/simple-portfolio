@@ -1,10 +1,18 @@
 .projDisplay {
   display: flex;
   flex-direction: row;
+  h3 {
+    margin: 0;
+  }
 }
 
 .abstract {
   margin:0em 1em;
+}
+
+.project-card {
+      background-color: white;
+    margin: 3rem;
 }
 
 .tech {

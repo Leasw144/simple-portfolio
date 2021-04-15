@@ -1,14 +1,18 @@
 
 .about {
   margin: 10em 2rem;
-  h2 {
+  h2, h3{
     text-align: left;
     margin-left: 0em;
     padding-left: 0em
   } 
 }
 
-.blurb {
-  max-width: 36rem;
-    margin-bottom: 4em;
+.blurb-left {
+  max-width: 28rem;
+  margin-bottom: 4em;
+}
+
+.blurb-right {
+  margin-left: 50%;
 }

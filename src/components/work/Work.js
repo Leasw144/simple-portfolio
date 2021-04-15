@@ -31,7 +31,7 @@ export default function ControlledAccordions() {
   };
 
   return (
-    <div >
+    <div className="work">
       <h1>Work History</h1>
       <Accordion
          expanded={ expanded === "panel1" }
