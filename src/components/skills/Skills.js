@@ -22,7 +22,7 @@ export default function Skills() {
   })
   return (
     <div className="skill-container">
-      <h1>Skills and Technical abilities</h1>
+      <h1 className="skills-header">Skills and Technical abilities</h1>
       <div className="skill-list">{listedTech}</div>
     </div>
   );

@@ -6,35 +6,14 @@ import Gallery from '../gallery/Gallery.js'
 
 export default function Projects({name, img, proj, abstract, tech}) {
   console.log("derpi", proj);
-  // const p = allProj.map((project) => {
-  //   return (
-  //     <Projects
-  //       name={project.name}
-  //       img={project.img}
-  //       abstract={project.abstract}
-  //       tech={project.tech}
-  //     />
-  //   );
-  // });
-  // console.log("these are images", img)
-  // let stock = 0
-  // const groupedImg = img.map(image => {
-  //   stock++
-  //   console.log('stock', stock)
-  //   return (
-  //     <figure key={name} className={`gallery__item gallery__item--${stock}`}>
-  //       <img src={image} alt="first" className="gallery__img" />
-  //     </figure>
-  //   );
-  // })
-  // console.log('grouped', groupedImg)
+ 
   const techStack = proj.tech.map((stack, i) => {
     return (
       <li key={i}>{stack}</li>
     )
   })
   return (
-    <div id="Projects">
+    <div id="Projects" className="project-card">
       <h2>{proj.name}</h2>
       <section className="projDisplay">
         <Gallery img={img} github={proj.github} />
