@@ -1,4 +1,11 @@
 
+
+@mixin about-grid {
+        background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .about {
   margin: 10em 2rem;
   h2, h3{
@@ -8,11 +15,44 @@
   } 
 }
 
-.blurb-left {
-  max-width: 28rem;
-  margin-bottom: 4em;
+.about-sect-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+    "a photo1"
+    "photo2 background";
+  p, h2 {
+    padding: 0em 2em
+  }
+  .a  {
+    grid-area: a;
+
+  }
+  .photo1 {
+    grid-area: photo1;
+    background-image:  url(../../assets/laptop.jpeg);
+    @include about-grid
+  }
+  .photo2 {
+    grid-area: photo2;
+    background-image:  url(../../assets/travel.jpeg);
+    @include about-grid
+  }
+  .blurb-right {
+    grid-area: background;
+  }
 }
 
-.blurb-right {
-  margin-left: 50%;
-}
+
+
+
+
+// .blurb-left {
+//   max-width: 28rem;
+//   margin-bottom: 4em;
+// }
+
+// .blurb-right {
+//   margin-left: 50%;
+// }
