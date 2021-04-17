@@ -5,9 +5,19 @@ $red: #ed5654;
 $purple: #a84cb8;
 
 .Traits {
+  text-align: left;
+  margin: 8em 4em;
+
+}
+
+.trait-card-container {
   display: flex;
 }
 
+.trait-header {
+  text-align: left;
+  margin: 3rem 0rem
+}
 .trait-card {
   display: flex;
   flex-direction: column;
