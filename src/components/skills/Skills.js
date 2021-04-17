@@ -1,6 +1,6 @@
 import React from 'react'
 import './Skills.scss'
-import Card from "@material-ui/core/Card";
+// import Card from "@material-ui/core/Card";
 // import CardContent from "@material-ui/core/CardContent";
 
 export default function Skills() {
@@ -13,17 +13,28 @@ export default function Skills() {
     if(i % 3 === 0 && i % 6 === 0) color = "red"
     console.log("your color", color)
     return (
-      <Card key={tech} className={`skill-card ${color}`}>
+      // <div key={tech} className="hexagon">
 
-          <h3>{tech}</h3>
+      //     <h3>{tech}</h3>
 
-      </Card>
+      // </div>
+      <li key={tech} className="hex">
+        <div className="hexIn">
+          <a className="hexLink" href="pornhub.com">
+            {tech}
+            {/* <img src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg" alt="" />  */}
+            <h1>This is a title</h1>
+            <p>Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
     );
   })
   return (
     <div className="skill-container">
       <h1 className="skills-header">Skills and Technical abilities</h1>
-      <div className="skill-list">{listedTech}</div>
+      <span> still under construction </span>
+      <ul id="hexGrid">{listedTech}</ul>
     </div>
   );
 }

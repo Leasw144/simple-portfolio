@@ -9,7 +9,11 @@ import PagesIcon from "@material-ui/icons/Pages";
 
 export default function Traits() {
   return (
-    <section className="Traits">
+    <div className="Traits">
+
+    
+    <h2 className="trait-header">My Personality According to a computer</h2>
+    <section className="trait-card-container">
       <div className="trait-card blue">
         <span>
           <TelegramIcon fontSize="large" className="char-icon" />
@@ -63,5 +67,6 @@ export default function Traits() {
         </ul>
       </div>
     </section>
+    </div>
   );
 }

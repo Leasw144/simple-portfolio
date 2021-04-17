@@ -7,7 +7,7 @@
 }
 
 .about {
-  margin: 10em 2rem;
+  margin: 10em 4rem;
   h2, h3{
     text-align: left;
     margin-left: 0em;
@@ -47,11 +47,19 @@
 
 
 
-
-// .blurb-left {
-//   max-width: 28rem;
-//   margin-bottom: 4em;
-// }
+.about-blurb {
+  margin-bottom: 10rem;
+  h2 {
+    margin: 0;
+  }
+  .blurb-left {
+    max-width: 75%;
+    background-color: #f9bf3f;
+    padding: 1em;
+    font-size: 1.5rem;
+    line-height: 37px;
+  }
+}
 
 // .blurb-right {
 //   margin-left: 50%;

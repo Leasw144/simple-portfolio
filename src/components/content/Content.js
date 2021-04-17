@@ -7,6 +7,7 @@ import Skills from "../skills/Skills.js";
 import Projects from "../projects/Projects.js";
 import Contact from "../contact/Contact.js"
 import Work from "../work/Work.js"
+import Traits from "../traits/Traits.js"
 
 // import covid from "../../assets/projects/covid1.jpg";
 // import tomatoes from "../../assets/projects/tomatoes.jpg";
@@ -26,10 +27,11 @@ export default function Content() {
       {/* <Nav /> */}
       <Splash />
       <About />
+      <Traits />
       <Skills />
       <Work />
-        <h1 id="Projects">Projects</h1>
-  
+      <h1 id="Projects">Projects</h1>
+
       {allProjects}
       <h1>Contact</h1>
       <Contact />
