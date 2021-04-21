@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: theme.typography.pxToRem(15),
     flexBasis: "33.33%",
     flexShrink: 0,
+    fontFamily: "Comfortaa"
   },
   secondaryHeading: {
     fontSize: theme.typography.pxToRem(15),
@@ -49,6 +50,7 @@ export default function ControlledAccordions() {
         <AccordionDetails>
           {/* <Typography> */}
           <ul>
+          <h3>Duties</h3>
             <li>
               Produced, maintained, and designed features as the only front-end
               developer on the team
@@ -58,14 +60,15 @@ export default function ControlledAccordions() {
             <li>Ideating features and presentation with development team</li>
           </ul>
           {/* </Typography> */}
-          <Typography>
+          <div className="work-description">
+            <h3>Description</h3> 
             Using AI, we help military veterans build a digital roadmap towards
             civilian success and connect them to every available resource for
             their career, education, finances, and wellness, along with the
             plethora of veteran benefits they are entitled to, no matter where
             they are located. We help them find resources, community, and their
             purpose outside of military life
-          </Typography>
+          </div>
         </AccordionDetails>
       </Accordion>
       <Accordion
