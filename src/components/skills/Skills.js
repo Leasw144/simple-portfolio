@@ -18,24 +18,17 @@ export default function Skills() {
       //     <h3>{tech}</h3>
 
       // </div>
-      <li key={tech} className="hex">
-        <div className="hexIn">
-          <a className="hexLink" href="pornhub.com">
-            {tech}
-            {/* <img src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg" alt="" />  */}
-            <h1>This is a title</h1>
-            <p>Some sample text about the article this hexagon leads to</p>
-          </a>
-        </div>
-      </li>
+      <div key={tech} className="skill-card">
+        {tech}
+      </div>
     );
   })
   return (
-    <div className="skill-container">
+    <section className="Skills-container">
       <h1 className="skills-header">Skills and Technical abilities</h1>
       <span> still under construction </span>
-      <ul id="hexGrid">{listedTech}</ul>
-    </div>
+      <div className="skill-cards-cont">{listedTech}</div>
+    </section>
   );
 }
 
