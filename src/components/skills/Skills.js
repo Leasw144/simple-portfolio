@@ -10,8 +10,8 @@ export default function Skills() {
     let color = "blue"
     if(i % 2 === 0) color = "yellow"
     if(i % 3 === 0) color = "purple"
-    if(i % 3 === 0 && i % 6 === 0) color = "red"
-    console.log("your color", color)
+    // if(i % 3 === 0 && i % 6 === 0) color = "red"
+    // console.log("your color", color)
     return (
       // <div key={tech} className="hexagon">
 

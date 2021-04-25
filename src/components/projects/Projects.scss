@@ -10,9 +10,13 @@
   margin:0em 1em;
 }
 
-.project-card {
+.project-container {
       background-color: white;
     margin: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    // margin: 1rem;
+    // position: absolute;
 }
 
 .tech {

@@ -12,7 +12,7 @@ export default class Gallery extends Component {
       photoIndex: 0,
       isOpen: false
     }
-    console.log('THIS IS SUPPOSED TO BE IMAGE 1', props)
+    // console.log('THIS IS SUPPOSED TO BE IMAGE 1', props)
   }
 
   makeThumbs() {

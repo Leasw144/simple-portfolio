@@ -1,0 +1,15 @@
+.ProjectCard {
+  margin: 1rem;
+  position: relative;
+  flex-grow: 1;
+  header {
+    position: absolute;
+    z-index: 10;
+  }
+
+}
+
+.project-image {
+  width: 10rem;
+  // position: absolute
+}
