@@ -73,3 +73,26 @@ $purple: #a84cb8;
   }
   border-bottom: $red 5px solid;
 }
+// @media only screen and (min-width: 1200px)  {
+//   .content {
+//     width: 57rem;
+//   }
+//     .Traits {
+//       flex-wrap: wrap;
+//       .trait-card {
+//         width: 60%
+//       }
+//     }
+//   .trait-card-container {
+//     // flex-wrap: wrap;
+//   }
+// }
+@media only screen and (max-width: 1440px)  {
+  .trait-card-container {
+    flex-wrap: wrap;
+  }
+  .project-container {
+    align-items: center;
+    justify-content: center;
+  }
+}
