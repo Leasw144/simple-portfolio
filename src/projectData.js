@@ -18,7 +18,7 @@ const projectList = {
     abstract:
       "An app that consumes the Postman API on Corona-Virus cases by country. There is a dropdown search menu that retrieves the latest stats for a country, as well as the ability to save countries to a 'watch-list'",
     tech: ["React-Router", "TDD", "Jest"],
-    github: "https://github.com/Leasw144/rancid-tomatatillos",
+    github: "https://github.com/Leasw144/covid-tracker",
   },
   tomatoes: {
     name: "Rotten Tomatatillos",
@@ -42,7 +42,7 @@ const projectList = {
     abstract:
       "This vanilla JavaScript application uses pseudo login credentials and allows users to pick dates on a hotel to reserve a room. There is also a manager login that allows them to delete or edit reservations. This was a solo project completed in 3 days.",
     tech: ["TDD", "HTML", "JavaScript", "API", "Chai", "Mocha"],
-    github: "https://github.com/neeruram1/Crate",
+    github: "https://github.com/Leasw144/overlook",
   },
 };
 

@@ -28,7 +28,6 @@ export default function Projects({name, img, proj, projectList, tech}) {
       <h1>Projects</h1>
       <div className="project-container">
         {allProjects}
-
       </div>
       {/* <h2>{proj.name}</h2>
         <section className="projDisplay">
