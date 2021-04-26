@@ -7,9 +7,9 @@ export default function Skills() {
   const tech = ["React", "AngularJs", "Hooks", "CSS/SCSS", "HTML", "(TDD)", "Jest", "JavaScript", "Vue", "React Native", "API", "Git"]
 
   const listedTech = tech.map((tech, i) => {
-    let color = "blue"
-    if(i % 2 === 0) color = "yellow"
-    if(i % 3 === 0) color = "purple"
+    // let color = "blue"
+    // if(i % 2 === 0) color = "yellow"
+    // if(i % 3 === 0) color = "purple"
     // if(i % 3 === 0 && i % 6 === 0) color = "red"
     // console.log("your color", color)
     return (

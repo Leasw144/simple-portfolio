@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.scss";
 import "../../assets/projects/covid1.jpg"
-import Gallery from '../gallery/Gallery.js'
+// import Gallery from '../gallery/Gallery.js'
 import ProjectCard from '../projectCard/ProjectCard'
 
 export default function Projects({name, img, proj, projectList, tech}) {

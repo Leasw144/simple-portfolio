@@ -1,13 +1,13 @@
 import React from "react"
 import "./ProjectCard.scss"
-import Gallery from "../gallery/Gallery.js";
+// import Gallery from "../gallery/Gallery.js";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import Tooltip from "@material-ui/core/Tooltip";
 import InfoIcon from "@material-ui/icons/Info";
 import FlightTakeoffIcon from "@material-ui/icons/FlightTakeoff";
 
-export default function ProjectCard({key, img, proj}) {
-  console.log(key, proj)
+export default function ProjectCard({ img, proj}) {
+  // console.log(key, proj)
 
 
   const onClick = (e) => {

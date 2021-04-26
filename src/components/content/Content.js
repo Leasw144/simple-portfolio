@@ -17,11 +17,11 @@ import projectList from "../../projectData.js";
 export default function Content() {
 
   // console.log("In content", Object.keys(projectList))
-  const allProjects = Object.keys(projectList).map((project, i) => {
-    return (
-      <Projects key={i} img={projectList[project].images} proj={projectList[project]} />
-    )
-  })
+  // const allProjects = Object.keys(projectList).map((project, i) => {
+  //   return (
+  //     <Projects key={i} img={projectList[project].images} proj={projectList[project]} />
+  //   )
+  // })
   return (
     <div className="content">
       {/* <Nav /> */}
