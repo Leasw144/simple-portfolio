@@ -1,0 +1,52 @@
+.ProjectCard {
+  margin: 1rem;
+  position: relative;
+  // flex-grow: 1;
+
+  text-align: center;
+      margin: 3rem;
+     background-repeat: no-repeat;
+  background-position: center;
+    background-size: cover;
+        width: 27rem;
+    height: 14rem;
+        display: flex;
+    flex-direction: column-reverse;
+  header {
+    position: absolute;
+    z-index: 10;
+    top: -17px;
+        background-color: white;
+    left: 32%;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    border: solid #ed5654 2px;
+    border-radius: 5px;
+        width: 10rem;
+  }
+  
+  .project-image {
+        width: 22rem;
+
+    // position: absolute
+  }
+  footer {
+    background-image: linear-gradient(to bottom, rgba(238, 238, 238, 0), rgba(238, 238, 238, .5), rgba(238, 238, 238, 1));
+    height: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.5rem;
+    button {
+      border: none;
+    width: fit-content;
+    }
+
+  }
+}
+
+.project-btn {
+  margin: 0rem;
+  height: auto;
+  min-width: auto;
+  background: none;
+}

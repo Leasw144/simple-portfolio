@@ -8,10 +8,10 @@ export default function About() {
         <h2 className="about-title">About Me</h2>
         <p className="blurb-left">
           <b>My name is Wattana</b>, or, <b>Sean</b> for short.
-          <br />I am a user-focused front-end developer looking to make meaningful
-          change via the products and people I work with. My core experiences are
-          with React Applications but I also have some experience with Vue.js and
-          Angular.
+          <br />I am a user-focused <b>front-end developer</b> looking to make
+          meaningful change via the products and people I work with. My core
+          experiences are with <b>React</b> applications but I also have some
+          experience with <b>Vue.js</b> and <b>Angular.</b>
           <br />
         </p>
       </div>
@@ -19,7 +19,10 @@ export default function About() {
         <div className="a">
           <h2 className="about-title">Key Traits</h2>
           <ul>
-            <li>Communication and Customer service (ranked #17 of over 1000 in customer satisfaction report at Customer Service Rep position</li>
+            <li>
+              Communication and Customer service (ranked #17 of over 1000 in
+              customer satisfaction report at Customer Service Rep position
+            </li>
             <li>Experience mentoring as an English Teacher</li>
             <li>Focuses on team dynamics and delegation</li>
             <li>Adaptable to changing needs</li>
