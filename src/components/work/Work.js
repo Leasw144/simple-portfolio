@@ -35,6 +35,40 @@ export default function ControlledAccordions() {
     <div className="work">
       <h1>Work History</h1>
       <Accordion
+        expanded={expanded === "panel3"}
+        onChange={handleChange("panel3")}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel3bh-content"
+          id="panel3bh-header"
+        >
+          <Typography className={classes.heading}>Docketly</Typography>
+          <Typography className={classes.heading}>
+            Web Developer
+          </Typography>
+          <Typography className={classes.heading}>
+            Mar 2021 to Present
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          {/* <Typography> */}
+          <ul>
+            <h3>Duties</h3>
+            <li>
+              Collaborated with Agile Development team to build features, test code, and advise other departments.
+            </li>
+            <li>Customer facing role in explaining complex processes</li>
+          </ul>
+          {/* </Typography> */}
+          <div className="work-description">
+            <h3>Description</h3>
+            Docketly is the leading appearance counsel provider. The custom-built software and in-house technical support give Dockelty unsurpassed agility in problem-solving and easy access to a variety of data. 
+          </div>
+        </AccordionDetails>
+      </Accordion>
+      
+      <Accordion
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}
       >
